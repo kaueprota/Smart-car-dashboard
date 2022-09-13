@@ -1,0 +1,61 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="CBD7F164-2D4F-3F36-FB2C-CB5042592C6C" name="Carro">
+<createdBy>kauep</createdBy>
+<createdTime>2022-09-05 19:58:07 UTC</createdTime>
+<ownerDesignName>Banco de Dados</ownerDesignName>
+<engineerTo>
+<item key="5454CBFB-27F9-D2F4-A9BE-691847AD34B2" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_carro" id="7DF7292E-D435-D476-9975-B46CECF003A5">
+<createdBy>kauep</createdBy>
+<createdTime>2022-09-05 20:21:53 UTC</createdTime>
+<ownerDesignName>Banco de Dados</ownerDesignName>
+<engineerTo>
+<item key="5454CBFB-27F9-D2F4-A9BE-691847AD34B2" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>9</dataTypeSize>
+<ownDataTypeParameters>9,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_usuario" id="FF27CA89-93CC-8684-6A76-8AB7496CEBF6">
+<createdBy>kauep</createdBy>
+<createdTime>2022-09-05 20:22:52 UTC</createdTime>
+<generatorID>D3AD9E44-7B17-9BB4-CCC7-27DC8541938F</generatorID>
+<ownerDesignName>Banco de Dados</ownerDesignName>
+<engineerTo>
+<item key="5454CBFB-27F9-D2F4-A9BE-691847AD34B2" value="true"/>
+</engineerTo>
+<referedAttribute>F8DFD935-D5BA-6F1B-2BAD-C321F63CEF99</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>9</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="2FA50F19-E0C2-AA40-0219-2BCF0F8513E5" name="Carro PK">
+<createdBy>kauep</createdBy>
+<createdTime>2022-09-05 20:21:57 UTC</createdTime>
+<ownerDesignName>Banco de Dados</ownerDesignName>
+<engineerTo>
+<item key="5454CBFB-27F9-D2F4-A9BE-691847AD34B2" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>7DF7292E-D435-D476-9975-B46CECF003A5</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

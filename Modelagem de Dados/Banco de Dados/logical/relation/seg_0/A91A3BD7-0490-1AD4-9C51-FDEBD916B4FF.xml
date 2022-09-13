@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_8" directorySegmentName="seg_0" id="A91A3BD7-0490-1AD4-9C51-FDEBD916B4FF">
+<createdBy>kauep</createdBy>
+<createdTime>2022-09-05 20:15:05 UTC</createdTime>
+<ownerDesignName>Banco de Dados</ownerDesignName>
+<engineerTo>
+<item key="5454CBFB-27F9-D2F4-A9BE-691847AD34B2" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>C81B8EF5-4BC7-817E-E120-C7BEF086CCEE</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>CBD7F164-2D4F-3F36-FB2C-CB5042592C6C</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

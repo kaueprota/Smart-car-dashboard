@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="DEA039BF-EE50-01D9-ABE9-A3B6585996BF" containerWithKeyObject="89AD2601-F91A-EEB9-8777-E8D641810D2D" localFKIndex="CE5950DA-A884-A3CE-0B53-584B9FD6A1C6" name="Relation_11_House_FK">
+<createdBy>kauep</createdBy>
+<createdTime>2022-09-05 20:35:36 UTC</createdTime>
+<generatorID>2A22A41C-F381-E566-DE40-C8E34C40D4D7</generatorID>
+<ownerDesignName>Banco de Dados</ownerDesignName>
+<referredTableLongName>House</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>DEB972E5-3994-34FF-2F44-23FDF274CE40</referredTableID>
+<keyObject>2488994B-77AF-D71F-093B-3887B5F0F050</keyObject>
+<referredKeyID>2488994B-77AF-D71F-093B-3887B5F0F050</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_casa</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

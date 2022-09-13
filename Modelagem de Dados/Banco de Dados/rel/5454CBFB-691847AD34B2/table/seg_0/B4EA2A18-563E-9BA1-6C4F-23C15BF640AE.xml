@@ -1,0 +1,65 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B4EA2A18-563E-9BA1-6C4F-23C15BF640AE" name="Carro">
+<createdBy>kauep</createdBy>
+<createdTime>2022-09-05 20:35:36 UTC</createdTime>
+<generatorID>CBD7F164-2D4F-3F36-FB2C-CB5042592C6C</generatorID>
+<ownerDesignName>Banco de Dados</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_carro" id="FE51D7EC-5ECC-A715-C63B-612C0C22A44C">
+<createdBy>kauep</createdBy>
+<createdTime>2022-09-05 20:35:36 UTC</createdTime>
+<generatorID>7DF7292E-D435-D476-9975-B46CECF003A5</generatorID>
+<ownerDesignName>Banco de Dados</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>9</dataTypeSize>
+<ownDataTypeParameters>9,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Usuario_id_usuario" id="AA220437-2119-1CC1-13BB-9FB6833EF75D">
+<createdBy>kauep</createdBy>
+<createdTime>2022-09-05 20:35:36 UTC</createdTime>
+<generatorID>FF27CA89-93CC-8684-6A76-8AB7496CEBF6</generatorID>
+<ownerDesignName>Banco de Dados</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>9</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="21A243A7-1751-318B-B253-9C4292DDA88B" referredColumn="43DFED5A-0F19-D60E-6E2C-9F78552D4DE1"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="444F597D-ED4B-775E-467E-DA6838F78BAD" name="Carro_PK">
+<createdBy>kauep</createdBy>
+<createdTime>2022-09-05 20:35:36 UTC</createdTime>
+<generatorID>2FA50F19-E0C2-AA40-0219-2BCF0F8513E5</generatorID>
+<ownerDesignName>Banco de Dados</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FE51D7EC-5ECC-A715-C63B-612C0C22A44C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E4F02EB7-511E-0A06-BA0E-D272A365322F" name="Carro_Usuario_FK">
+<createdBy>kauep</createdBy>
+<createdTime>2022-09-05 20:35:36 UTC</createdTime>
+<generatorID>D3AD9E44-7B17-9BB4-CCC7-27DC8541938F</generatorID>
+<ownerDesignName>Banco de Dados</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AA220437-2119-1CC1-13BB-9FB6833EF75D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

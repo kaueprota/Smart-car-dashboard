@@ -1,0 +1,88 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D69EC68F-07FD-31EA-32B4-B6913A0B0EFF" name="House">
+<createdBy>kauep</createdBy>
+<createdTime>2022-09-05 19:58:32 UTC</createdTime>
+<ownerDesignName>Banco de Dados</ownerDesignName>
+<engineerTo>
+<item key="5454CBFB-27F9-D2F4-A9BE-691847AD34B2" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_casa" id="7CC7C276-980D-8002-F230-9A2CC0DD920A">
+<createdBy>kauep</createdBy>
+<createdTime>2022-09-05 20:17:30 UTC</createdTime>
+<ownerDesignName>Banco de Dados</ownerDesignName>
+<engineerTo>
+<item key="5454CBFB-27F9-D2F4-A9BE-691847AD34B2" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>9</dataTypeSize>
+<ownDataTypeParameters>9,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_usuario" id="ADDD1B18-7333-F4EC-BB80-6E2A6FFEC6E2">
+<createdBy>kauep</createdBy>
+<createdTime>2022-09-05 20:27:44 UTC</createdTime>
+<generatorID>A306C8F7-551A-CF17-DCE5-E4F6B8B03606</generatorID>
+<ownerDesignName>Banco de Dados</ownerDesignName>
+<engineerTo>
+<item key="5454CBFB-27F9-D2F4-A9BE-691847AD34B2" value="true"/>
+</engineerTo>
+<referedAttribute>F8DFD935-D5BA-6F1B-2BAD-C321F63CEF99</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>9</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_garagem" id="6B3BBE16-D630-BD68-8BCA-0CC4D433B47D">
+<createdBy>kauep</createdBy>
+<createdTime>2022-09-05 20:20:12 UTC</createdTime>
+<generatorID>20B77418-E688-22B6-D844-E1EAE2425F83</generatorID>
+<ownerDesignName>Banco de Dados</ownerDesignName>
+<engineerTo>
+<item key="5454CBFB-27F9-D2F4-A9BE-691847AD34B2" value="true"/>
+</engineerTo>
+<referedAttribute>E9B1B76F-75A9-F505-9CB4-D62678DFD93A</referedAttribute>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>9</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="endereco_casa" id="2FD4CA00-55EA-FBA5-0EF8-76E6ADBE6F75">
+<createdBy>kauep</createdBy>
+<createdTime>2022-09-05 20:17:38 UTC</createdTime>
+<ownerDesignName>Banco de Dados</ownerDesignName>
+<engineerTo>
+<item key="5454CBFB-27F9-D2F4-A9BE-691847AD34B2" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>24</dataTypeSize>
+<ownDataTypeParameters>24,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="E19C27C1-3F87-CDE0-4B7B-FD186A441DA6" name="House PK">
+<createdBy>kauep</createdBy>
+<createdTime>2022-09-05 20:17:34 UTC</createdTime>
+<ownerDesignName>Banco de Dados</ownerDesignName>
+<engineerTo>
+<item key="5454CBFB-27F9-D2F4-A9BE-691847AD34B2" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>7CC7C276-980D-8002-F230-9A2CC0DD920A</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

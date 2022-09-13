@@ -1,0 +1,73 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="4230C450-AC9F-78A3-18B9-4F5EAF17EE15" name="Portao">
+<createdBy>kauep</createdBy>
+<createdTime>2022-09-05 20:06:56 UTC</createdTime>
+<ownerDesignName>Banco de Dados</ownerDesignName>
+<engineerTo>
+<item key="5454CBFB-27F9-D2F4-A9BE-691847AD34B2" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_portao" id="AD88B1DD-77C0-D9A7-CE95-BBABD2D796BF">
+<createdBy>kauep</createdBy>
+<createdTime>2022-09-05 20:20:34 UTC</createdTime>
+<ownerDesignName>Banco de Dados</ownerDesignName>
+<engineerTo>
+<item key="5454CBFB-27F9-D2F4-A9BE-691847AD34B2" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>9</dataTypeSize>
+<ownDataTypeParameters>9,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_garagem" id="D614BE4C-F164-0B86-6741-E685C912A625">
+<createdBy>kauep</createdBy>
+<createdTime>2022-09-05 20:20:12 UTC</createdTime>
+<generatorID>C284B5E5-61AB-ACE0-7DD7-D2B3209B77CF</generatorID>
+<ownerDesignName>Banco de Dados</ownerDesignName>
+<engineerTo>
+<item key="5454CBFB-27F9-D2F4-A9BE-691847AD34B2" value="true"/>
+</engineerTo>
+<referedAttribute>E9B1B76F-75A9-F505-9CB4-D62678DFD93A</referedAttribute>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>9</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="condicao" id="0B9EB15C-7242-9C31-C324-975B053773EB">
+<createdBy>kauep</createdBy>
+<createdTime>2022-09-05 20:20:57 UTC</createdTime>
+<ownerDesignName>Banco de Dados</ownerDesignName>
+<engineerTo>
+<item key="5454CBFB-27F9-D2F4-A9BE-691847AD34B2" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="C685FAE0-049A-BE2B-C409-AB369351FF34" name="Portao PK">
+<createdBy>kauep</createdBy>
+<createdTime>2022-09-05 20:20:38 UTC</createdTime>
+<ownerDesignName>Banco de Dados</ownerDesignName>
+<engineerTo>
+<item key="5454CBFB-27F9-D2F4-A9BE-691847AD34B2" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>AD88B1DD-77C0-D9A7-CE95-BBABD2D796BF</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

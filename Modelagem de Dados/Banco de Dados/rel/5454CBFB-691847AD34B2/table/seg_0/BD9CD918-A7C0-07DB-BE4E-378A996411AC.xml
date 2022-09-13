@@ -1,0 +1,78 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BD9CD918-A7C0-07DB-BE4E-378A996411AC" name="Comando_lampada2">
+<createdBy>kauep</createdBy>
+<createdTime>2022-09-05 20:35:36 UTC</createdTime>
+<ownerDesignName>Banco de Dados</ownerDesignName>
+<ordsAlias>relation_10</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Garagem_id_garagem" id="CEB5DA54-808A-DAA8-5F8B-026A70EA9C9E">
+<createdBy>kauep</createdBy>
+<createdTime>2022-09-05 20:35:36 UTC</createdTime>
+<ownerDesignName>Banco de Dados</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>9</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A32D3D48-F598-D97A-F34C-C11DC85E7BF7" referredColumn="E9F4F621-9375-5117-983D-58BCF4C67C7A"/>
+</associations>
+</Column>
+<Column name="Lampada_id_lampada" id="7ECE5639-FCE2-BF8E-BE97-14AF4A617313">
+<createdBy>kauep</createdBy>
+<createdTime>2022-09-05 20:35:36 UTC</createdTime>
+<ownerDesignName>Banco de Dados</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>9</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9BA2F996-ADD1-320C-0034-49644B519854" referredColumn="93BC1E47-A105-C350-FE02-789BF6FBA724"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="571A061B-F7A4-403C-094A-B39AA6A7596C" name="Relation_10_PK">
+<createdBy>kauep</createdBy>
+<createdTime>2022-09-05 20:35:36 UTC</createdTime>
+<ownerDesignName>Banco de Dados</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CEB5DA54-808A-DAA8-5F8B-026A70EA9C9E"/>
+<colUsage columnID="7ECE5639-FCE2-BF8E-BE97-14AF4A617313"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="560F6575-07B4-3180-9CAA-CAA4A22DDD94" name="Relation_10_Garagem_FK">
+<createdBy>kauep</createdBy>
+<createdTime>2022-09-05 20:35:36 UTC</createdTime>
+<generatorID>D45481B8-4ED9-B92E-FF8B-414D655C15AE</generatorID>
+<ownerDesignName>Banco de Dados</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CEB5DA54-808A-DAA8-5F8B-026A70EA9C9E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A86FB228-D554-E40E-AB0F-C6D9230741DA" name="Relation_10_Lampada_FK">
+<createdBy>kauep</createdBy>
+<createdTime>2022-09-05 20:35:36 UTC</createdTime>
+<generatorID>D45481B8-4ED9-B92E-FF8B-414D655C15AE</generatorID>
+<ownerDesignName>Banco de Dados</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7ECE5639-FCE2-BF8E-BE97-14AF4A617313"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

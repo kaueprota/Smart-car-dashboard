@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="D8CAA9A0-9E83-8D99-F3F5-2342158A3B7F" containerWithKeyObject="E421BF10-2B35-1E32-E49A-C6103651D265" localFKIndex="89899FAA-EEDC-A7BE-3976-5D43621A0F66" name="System_Dashboard_FK">
+<createdBy>kauep</createdBy>
+<createdTime>2022-09-05 20:35:36 UTC</createdTime>
+<generatorID>B6A1C9CA-E67C-5F21-FEF8-1697CD0CBAC0</generatorID>
+<ownerDesignName>Banco de Dados</ownerDesignName>
+<referredTableLongName>Dashboard</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>9B454A57-87C5-464E-97CF-F7B0B96408D9</referredTableID>
+<keyObject>75C1D9EF-2AD7-A71A-179D-3BB7672E71B1</keyObject>
+<referredKeyID>75C1D9EF-2AD7-A71A-179D-3BB7672E71B1</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_dashboard</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

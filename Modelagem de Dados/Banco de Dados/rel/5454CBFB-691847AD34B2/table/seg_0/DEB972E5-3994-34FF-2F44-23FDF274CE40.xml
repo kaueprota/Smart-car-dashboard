@@ -1,0 +1,140 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DEB972E5-3994-34FF-2F44-23FDF274CE40" name="House">
+<createdBy>kauep</createdBy>
+<createdTime>2022-09-05 20:35:36 UTC</createdTime>
+<generatorID>D69EC68F-07FD-31EA-32B4-B6913A0B0EFF</generatorID>
+<ownerDesignName>Banco de Dados</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_casa" id="98DD2EA9-16A0-8A55-E55E-EC4431D1AC16">
+<createdBy>kauep</createdBy>
+<createdTime>2022-09-05 20:35:36 UTC</createdTime>
+<generatorID>7CC7C276-980D-8002-F230-9A2CC0DD920A</generatorID>
+<ownerDesignName>Banco de Dados</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>9</dataTypeSize>
+<ownDataTypeParameters>9,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Usuario_id_usuario" id="024828D5-9A47-1843-1E3C-F59156EE44A5">
+<createdBy>kauep</createdBy>
+<createdTime>2022-09-05 20:35:36 UTC</createdTime>
+<generatorID>ADDD1B18-7333-F4EC-BB80-6E2A6FFEC6E2</generatorID>
+<ownerDesignName>Banco de Dados</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>9</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="647FFE8D-C32B-D34F-DF82-CC8DE9BB3206" referredColumn="43DFED5A-0F19-D60E-6E2C-9F78552D4DE1"/>
+</associations>
+</Column>
+<Column name="Garagem_id_garagem" id="F170298B-C9C0-7550-9CC3-285BC70E3077">
+<createdBy>kauep</createdBy>
+<createdTime>2022-09-05 20:35:36 UTC</createdTime>
+<generatorID>6B3BBE16-D630-BD68-8BCA-0CC4D433B47D</generatorID>
+<ownerDesignName>Banco de Dados</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>9</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="21E6B502-0249-8D3B-52DA-948E3C08AF46" referredColumn="E9F4F621-9375-5117-983D-58BCF4C67C7A"/>
+</associations>
+</Column>
+<Column name="endereco_casa" id="18598A25-7E5D-3001-D6B2-60E63230052F">
+<createdBy>kauep</createdBy>
+<createdTime>2022-09-05 20:35:36 UTC</createdTime>
+<generatorID>2FD4CA00-55EA-FBA5-0EF8-76E6ADBE6F75</generatorID>
+<ownerDesignName>Banco de Dados</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>24</dataTypeSize>
+<ownDataTypeParameters>24,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="System_System_ID" id="F52B8E7A-FFDF-DCA3-876E-3F0A59A57A00">
+<createdBy>kauep</createdBy>
+<createdTime>2022-09-05 20:35:36 UTC</createdTime>
+<ownerDesignName>Banco de Dados</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6BE25669-6167-7E87-EA22-240106C76996" referredColumn="5BCA9D86-ECF2-DFA9-8D61-6CB543CBD594"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2488994B-77AF-D71F-093B-3887B5F0F050" name="House_PK">
+<createdBy>kauep</createdBy>
+<createdTime>2022-09-05 20:35:36 UTC</createdTime>
+<generatorID>E19C27C1-3F87-CDE0-4B7B-FD186A441DA6</generatorID>
+<ownerDesignName>Banco de Dados</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="98DD2EA9-16A0-8A55-E55E-EC4431D1AC16"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C65A54F2-BA3F-013B-2C4A-9515C8896AFD" name="House__IDX">
+<createdBy>kauep</createdBy>
+<createdTime>2022-09-05 20:35:36 UTC</createdTime>
+<ownerDesignName>Banco de Dados</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>20B77418-E688-22B6-D844-E1EAE2425F83</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="F170298B-C9C0-7550-9CC3-285BC70E3077"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F868AA33-B444-BCFC-E3F7-B9B44B0AF151" name="House_System_FK">
+<createdBy>kauep</createdBy>
+<createdTime>2022-09-05 20:35:36 UTC</createdTime>
+<generatorID>0A230CF5-CA17-941D-2BB8-5E5E47E4BB37</generatorID>
+<ownerDesignName>Banco de Dados</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F52B8E7A-FFDF-DCA3-876E-3F0A59A57A00"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E47C0B94-E060-1A5B-4C01-3C5676EAE789" name="House_Usuario_FK">
+<createdBy>kauep</createdBy>
+<createdTime>2022-09-05 20:35:36 UTC</createdTime>
+<generatorID>A306C8F7-551A-CF17-DCE5-E4F6B8B03606</generatorID>
+<ownerDesignName>Banco de Dados</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="024828D5-9A47-1843-1E3C-F59156EE44A5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FB74FC87-7327-7E4D-988F-F9401BA3F6B6" name="House_Garagem_FK">
+<createdBy>kauep</createdBy>
+<createdTime>2022-09-05 20:35:36 UTC</createdTime>
+<generatorID>20B77418-E688-22B6-D844-E1EAE2425F83</generatorID>
+<ownerDesignName>Banco de Dados</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F170298B-C9C0-7550-9CC3-285BC70E3077"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

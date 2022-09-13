@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<BusinessInfoDesign class="oracle.dbtools.crest.model.businessinfo.BusinessInfoDesign" name="Business Information" id="A79CF01D-6376-ABEC-C4C3-249B3B048B66">
+<createdBy>kauep</createdBy>
+<createdTime>2022-09-05 19:43:33 UTC</createdTime>
+<ownerDesignName>Banco de Dados</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</BusinessInfoDesign>

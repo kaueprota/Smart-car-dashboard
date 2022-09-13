@@ -1,0 +1,146 @@
+@media screen and (max-width: 1024px){
+
+}
+
+@media screen and (max-width: 920px){
+    body{
+        overflow-y: scroll !important;    
+    }
+
+    .titulo{
+        font-size: 25px !important;
+    }
+
+    /*Next*/
+    .next {
+        left: 85% !important;
+        font-size: 12px !important;
+    }
+    .bolinha {
+        width: 38px !important;
+        height: 39px !important;
+    }
+    .imgSeta {
+        top: 11px !important;
+        left: 12px !important;
+    }
+    /*....*/
+    /*NAV*/
+    nav{
+        height: calc(583px + 4vh) !important;
+        width: 95px !important;
+        top: 3vh !important;
+        border-radius: 0px 100px 100px 0px !important;
+    }
+
+    .containerMenu{
+        height: 100% !important;
+    }
+    
+    .opcoes{
+        width: 75px !important;
+        height: 75px !important;
+        margin: 9px !important;
+    }
+    
+    .microfone{
+        width: 33px !important;
+        height: 33px !important;
+        margin-top: 10px !important;
+    }
+    
+    .opcoes:hover{
+        background-color: #0074FD;
+    }
+    
+    
+    .imgMenu{
+        width: 50px  !important;
+        height: 50px  !important;
+    }
+    
+    #imgInicial{
+        background-image: url(../images/ArrowMenu.svg);
+    }
+    
+    #imgCar{
+        background-image: url(../images/CarMenu.svg);
+        
+    }
+    
+    #imgGarage{
+        background-image: url(../images/houseMenu.svg);
+        
+    }
+    
+    #imgPerson{
+        background-image: url(../images/PersonMenu.svg);
+        
+    }
+    
+    #imgConfig{
+        background-image: url(../images/EngramMenu.svg);
+
+    }
+    /*....*/
+    /*CARDS*/
+    .cards{
+        width: 88vw !important;
+        margin-left: 14% !important;
+        margin-top: calc(27vh - 40px) !important;
+        padding: 30px !important;
+    }
+    
+    .card{
+        width: 164px !important;
+        height: 156px !important;
+        margin: 10px !important;
+        padding: 10px !important;
+    }
+    
+    .card:hover{
+        background-color: #d0d0d0 !important;
+        width: calc(164px + 5px) !important;
+        height: calc(156px + 5px) !important;
+    
+    }
+
+    .imgCard{
+        width: 85% !important;
+        height: 85% !important;
+        background-repeat: no-repeat !important;
+        background-size: contain !important;
+        background-position: top !important;
+    }
+    /*....*/
+    /*CONTADOR*/
+    .contador{
+        width: 190px !important;
+        height: 190px !important;
+        position: fixed !important;
+        right: 23vw !important;
+        top: 70vh !important;
+        display: flex !important;
+        align-items: center !important;
+        justify-content: center !important;
+        
+    }
+
+    .textContador h2{
+        font-size: 70px !important;
+    }
+    
+    .textContador span{
+        font-size: 18px !important;
+    }
+    
+    .textContador p{
+        padding-top: 7px;
+        font-size: 15px !important;
+    }
+    /*....*/
+}
+
+@media screen and (max-width: 425px){
+
+}

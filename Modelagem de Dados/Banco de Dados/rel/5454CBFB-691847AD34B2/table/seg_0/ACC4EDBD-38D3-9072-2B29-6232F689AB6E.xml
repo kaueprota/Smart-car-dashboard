@@ -1,0 +1,79 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="ACC4EDBD-38D3-9072-2B29-6232F689AB6E" name="Contatos">
+<createdBy>kauep</createdBy>
+<createdTime>2022-09-05 20:35:36 UTC</createdTime>
+<generatorID>8D463E78-4987-5F57-626D-75650386FAF8</generatorID>
+<ownerDesignName>Banco de Dados</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Usuario_id_usuario" id="F9F47E8B-E0FC-A071-605C-5680BC100D25">
+<createdBy>kauep</createdBy>
+<createdTime>2022-09-05 20:35:36 UTC</createdTime>
+<generatorID>EFD04A88-55D8-21A2-1907-9C6B53F722CC</generatorID>
+<ownerDesignName>Banco de Dados</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>9</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C2FC1A64-4074-5166-AFD1-7F8E2E4FD717" referredColumn="43DFED5A-0F19-D60E-6E2C-9F78552D4DE1"/>
+</associations>
+</Column>
+<Column name="numero" id="F781D016-1E21-5DB0-60DD-E3FF9199FA86">
+<createdBy>kauep</createdBy>
+<createdTime>2022-09-05 20:35:36 UTC</createdTime>
+<generatorID>4D1E2643-8048-B0A7-08B4-5328A8DC8E35</generatorID>
+<ownerDesignName>Banco de Dados</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypeScale>14</dataTypeScale>
+<ownDataTypeParameters>,,14</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="endereco" id="B1AADA10-6985-0FC0-9FC7-523E0112F81E">
+<createdBy>kauep</createdBy>
+<createdTime>2022-09-05 20:35:36 UTC</createdTime>
+<generatorID>C25093F3-4DF3-5BF8-A4D7-3AB1C0FD5E8D</generatorID>
+<ownerDesignName>Banco de Dados</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>24</dataTypeSize>
+<ownDataTypeParameters>24,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nome" id="516AE11B-559B-7B5B-1A78-A38E6A21E1EB">
+<createdBy>kauep</createdBy>
+<createdTime>2022-09-05 20:35:36 UTC</createdTime>
+<generatorID>77ED2D08-0BF3-AD6C-4466-9F2E585F79D8</generatorID>
+<ownerDesignName>Banco de Dados</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9F8F8650-CFEB-F70E-8E6D-B0C94841123D" name="Contatos_Usuario_FK">
+<createdBy>kauep</createdBy>
+<createdTime>2022-09-05 20:35:36 UTC</createdTime>
+<generatorID>0B92EB65-99E9-FD61-B5F5-3D94BE6A7F6B</generatorID>
+<ownerDesignName>Banco de Dados</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F9F47E8B-E0FC-A071-605C-5680BC100D25"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

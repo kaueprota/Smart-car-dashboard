@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E421BF10-2B35-1E32-E49A-C6103651D265" name="System">
+<createdBy>kauep</createdBy>
+<createdTime>2022-09-05 20:35:36 UTC</createdTime>
+<generatorID>7F5843D2-3CB3-0F5B-BC07-C21B7B35AA27</generatorID>
+<ownerDesignName>Banco de Dados</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Dashboard_id_dashboard" id="B97B8FBA-032B-96B0-5E53-3CE5736594C2">
+<createdBy>kauep</createdBy>
+<createdTime>2022-09-05 20:35:36 UTC</createdTime>
+<generatorID>46E0BE72-15E7-216D-61FD-5134CCAC6684</generatorID>
+<ownerDesignName>Banco de Dados</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>9</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D8CAA9A0-9E83-8D99-F3F5-2342158A3B7F" referredColumn="F59CD08A-E870-1E9D-1118-E2A1D55E2349"/>
+</associations>
+</Column>
+<Column name="System_ID" id="5BCA9D86-ECF2-DFA9-8D61-6CB543CBD594">
+<createdBy>kauep</createdBy>
+<createdTime>2022-09-05 20:35:36 UTC</createdTime>
+<ownerDesignName>Banco de Dados</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isSurrogateColumn>true</isSurrogateColumn>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B259E4FD-06E9-9208-EB3B-C49E17F4789E" name="System_PK">
+<createdBy>kauep</createdBy>
+<createdTime>2022-09-05 20:35:36 UTC</createdTime>
+<ownerDesignName>Banco de Dados</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="5BCA9D86-ECF2-DFA9-8D61-6CB543CBD594"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F9A7F54B-FF52-1136-80D9-F16DA7B21B96" name="System__IDX">
+<createdBy>kauep</createdBy>
+<createdTime>2022-09-05 20:35:36 UTC</createdTime>
+<ownerDesignName>Banco de Dados</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>B6A1C9CA-E67C-5F21-FEF8-1697CD0CBAC0</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="B97B8FBA-032B-96B0-5E53-3CE5736594C2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="89899FAA-EEDC-A7BE-3976-5D43621A0F66" name="System_Dashboard_FK">
+<createdBy>kauep</createdBy>
+<createdTime>2022-09-05 20:35:36 UTC</createdTime>
+<generatorID>B6A1C9CA-E67C-5F21-FEF8-1697CD0CBAC0</generatorID>
+<ownerDesignName>Banco de Dados</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B97B8FBA-032B-96B0-5E53-3CE5736594C2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

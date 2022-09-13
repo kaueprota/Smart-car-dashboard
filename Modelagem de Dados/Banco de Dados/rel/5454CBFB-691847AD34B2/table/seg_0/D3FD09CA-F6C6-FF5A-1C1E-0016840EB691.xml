@@ -1,0 +1,88 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D3FD09CA-F6C6-FF5A-1C1E-0016840EB691" name="Garagem">
+<createdBy>kauep</createdBy>
+<createdTime>2022-09-05 20:35:36 UTC</createdTime>
+<generatorID>C81B8EF5-4BC7-817E-E120-C7BEF086CCEE</generatorID>
+<ownerDesignName>Banco de Dados</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_garagem" id="E9F4F621-9375-5117-983D-58BCF4C67C7A">
+<createdBy>kauep</createdBy>
+<createdTime>2022-09-05 20:35:36 UTC</createdTime>
+<generatorID>E9B1B76F-75A9-F505-9CB4-D62678DFD93A</generatorID>
+<ownerDesignName>Banco de Dados</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>9</dataTypeSize>
+<ownDataTypeParameters>9,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="House_id_casa" id="A852D536-2CEE-61B4-4249-41ED22AAC1DA">
+<createdBy>kauep</createdBy>
+<createdTime>2022-09-05 20:35:36 UTC</createdTime>
+<generatorID>18A340BB-FCF0-DFF2-2E9A-D69E4B5D94F4</generatorID>
+<ownerDesignName>Banco de Dados</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>9</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8C944134-8297-D0F1-5697-156B4B568895" referredColumn="98DD2EA9-16A0-8A55-E55E-EC4431D1AC16"/>
+</associations>
+</Column>
+<Column name="qt_vagas" id="B4E2BF09-8F2C-46D9-5612-FEFBC96177FD">
+<createdBy>kauep</createdBy>
+<createdTime>2022-09-05 20:35:36 UTC</createdTime>
+<generatorID>177E893E-D7FE-AC0B-B4E7-B4A69CE2C1F6</generatorID>
+<ownerDesignName>Banco de Dados</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0357E68B-2BB3-8737-3C8D-6EE6BFA7DE89" name="Garagem_PK">
+<createdBy>kauep</createdBy>
+<createdTime>2022-09-05 20:35:36 UTC</createdTime>
+<generatorID>E22269BF-2302-51D3-52AC-A1B995867574</generatorID>
+<ownerDesignName>Banco de Dados</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E9F4F621-9375-5117-983D-58BCF4C67C7A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="66753264-EFA9-2859-AAD9-E2A7D65F4975" name="Garagem__IDX">
+<createdBy>kauep</createdBy>
+<createdTime>2022-09-05 20:35:36 UTC</createdTime>
+<ownerDesignName>Banco de Dados</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>20B77418-E688-22B6-D844-E1EAE2425F83</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="A852D536-2CEE-61B4-4249-41ED22AAC1DA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7066B366-8916-AE41-2163-D9D38EB885FD" name="Garagem_House_FK">
+<createdBy>kauep</createdBy>
+<createdTime>2022-09-05 20:35:36 UTC</createdTime>
+<generatorID>20B77418-E688-22B6-D844-E1EAE2425F83</generatorID>
+<ownerDesignName>Banco de Dados</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A852D536-2CEE-61B4-4249-41ED22AAC1DA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

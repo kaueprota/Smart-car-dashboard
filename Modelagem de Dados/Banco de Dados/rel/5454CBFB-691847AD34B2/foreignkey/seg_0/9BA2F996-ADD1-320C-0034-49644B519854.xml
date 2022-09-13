@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="9BA2F996-ADD1-320C-0034-49644B519854" containerWithKeyObject="BD9CD918-A7C0-07DB-BE4E-378A996411AC" localFKIndex="A86FB228-D554-E40E-AB0F-C6D9230741DA" name="Relation_10_Lampada_FK">
+<createdBy>kauep</createdBy>
+<createdTime>2022-09-05 20:35:36 UTC</createdTime>
+<generatorID>D45481B8-4ED9-B92E-FF8B-414D655C15AE</generatorID>
+<ownerDesignName>Banco de Dados</ownerDesignName>
+<referredTableLongName>Lampada</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>44CA2E8C-3752-D8D7-4633-53137DB39AC5</referredTableID>
+<keyObject>20B7A566-E073-C3E9-0E6D-C571148E380B</keyObject>
+<referredKeyID>20B7A566-E073-C3E9-0E6D-C571148E380B</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_lampada</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
