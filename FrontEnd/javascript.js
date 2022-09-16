@@ -19,7 +19,16 @@ class GarageScreen{
                 let temp = opcoes[i].childNodes.item(3)
                 temp.classList.add('flutuanteJs')
              })
+             opcoes[i].addEventListener('ontouchstart', event=>{
+                let temp = opcoes[i].childNodes.item(3)
+                temp.classList.add('flutuanteJs')
+             })
+
              opcoes[i].addEventListener('mouseout', event=>{
+                let temp = opcoes[i].childNodes.item(3)
+                temp.classList.remove('flutuanteJs')
+             })
+             opcoes[i].addEventListener('ontouchend', event=>{
                 let temp = opcoes[i].childNodes.item(3)
                 temp.classList.remove('flutuanteJs')
              })

@@ -2,7 +2,7 @@
 
 }
 
-@media screen and (max-width: 920px){
+@media screen and (max-width: 982px){
     body{
         overflow-y: scroll !important;    
     }
@@ -103,12 +103,13 @@
         width: 190px !important;
         height: 190px !important;
         position: fixed !important;
-        right: 1vw /* !important; */;
-        top: 78vh !important;
+        right: 7vw /* !important; */;
+        top: 77vh !important;
         display: flex !important;
         align-items: center !important;
         justify-content: center !important;
     }
+    
         
     
 

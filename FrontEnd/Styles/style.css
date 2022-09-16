@@ -187,7 +187,7 @@ nav{
     background-color: white;
     height: calc(583px + 12vh);
     width: 140px;
-    top: 0px;
+    top: calc(47vh - 312px);
     border-radius: 0px 100px 100px 0px;
     box-shadow: 6px 4px 24px 5px rgb(0 0 0 / 25%);
     position: fixed;
@@ -287,7 +287,8 @@ nav{
     position: absolute;
     top: -12px;
     left: 87px;
-    height: 100%;
+    height: 52%;
+    width: 100%;
     z-index: 99;
     visibility: hidden;
     transition: 1s;
@@ -418,8 +419,8 @@ nav{
     background-color: black;
     border-radius: 100%;
     position: fixed;
-    right: -7px;
-    top: 60vh;
+    top: 54vh;
+    right: -1vw;
     padding: 88px 60px 100px 60px;
     transition: 3s !important;
     transition-timing-function: cubic-bezier(0.55, -0.04, 0, 1.29) !important;
