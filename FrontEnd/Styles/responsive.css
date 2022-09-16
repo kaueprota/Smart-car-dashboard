@@ -55,6 +55,7 @@
     
     .recolher {
         left: 112% !important;
+        opacity: 0.8 !important;
     }
     
     .imgMenu{
