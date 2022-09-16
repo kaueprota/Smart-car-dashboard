@@ -7,6 +7,10 @@ class GarageScreen{
             contador.classList.toggle('contadorJs')
             
         })
+        contador.addEventListener('touchstart', event=>{
+            contador.classList.toggle('contadorJs')
+            
+        })
 
         //exibindo flutuantes
         let opcoes = document.querySelectorAll('.opcoes')
@@ -49,8 +53,9 @@ class GarageScreen{
         let nav = document.querySelector('.nav')
         let opcoes = document.querySelectorAll('.opcoes')
         //removíveis
+        let card = document.querySelectorAll('.card')
         let imgPraia = document.querySelector('.imgPraia')
-        let banheira = document.querySelectorAll('.imgBanheira')
+        let svgCor = document.querySelectorAll('.svgCor')
         //Fim removíveis
             if(botaoMode.style.left != "6px" ){
                 botaoMode.style.left = "6px"
@@ -64,10 +69,23 @@ class GarageScreen{
                 document.body.classList.add('bodyDark')
                 nav.classList.add('navDark')
                 //removíveis
-                for(let k in opcoes){
-                    opcoes[k].classList.add('opcoesDark')
+                let j = 0
+                while(j < opcoes.length){
+                    opcoes[j].classList.add('opcoesDark') 
+                    j++
                 }
-                banheira.classList.add('banheiraDark')
+
+                let x = 0
+                while(x < svgCor.length){
+                    svgCor[x].classList.add('svgCorDark')  
+                    x++
+                }
+
+                for(let k in card){
+                    card[k].classList.add('cardDark')
+                    card[k].style.color = "white"
+                }
+    
                 //fim removíveis
             }
             else{
@@ -81,9 +99,25 @@ class GarageScreen{
                 imgPraia.classList.remove('imgPraiaDark')
                 document.body.classList.remove('bodyDark')
                 nav.classList.remove('navDark')
-                for(let k in opcoes){
-                    opcoes[k].classList.remove('opcoesDark')
+                //removíveis
+
+                let j = 0
+                while(j < opcoes.length){
+                    opcoes[j].classList.remove('opcoesDark') 
+                    j++
                 }
+
+                let x = 0
+                while(x < svgCor.length){
+                    svgCor[x].classList.remove('svgCorDark') 
+                    x++ 
+                }
+                
+                for(let k in card){
+                    card[k].classList.remove('cardDark')
+                    card[k].style.color = "black"
+                }
+                //fim removíveis
             }
         })
     }

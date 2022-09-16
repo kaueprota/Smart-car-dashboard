@@ -43,7 +43,6 @@ body{
 }
 
 .next{
-    width: 80px;
     position: absolute;
     z-index: 99;
     top: 50px;
@@ -227,24 +226,25 @@ nav{
 }
 
 
-.opcoes:nth-child(3){
+.opcoes:nth-child(4){
     background-color: #0074FD;
 }
 
-.opcoes:nth-child(3):hover{
+.opcoes:nth-child(4):hover{
     background-color: #0357b8;
 }
 
 .microfone{
     width: 33px;
     height: 33px;
-    background-image: url(../images/microfone.svg);
+    /* background-image: url(../images/microfone.svg); 
     background-repeat: no-repeat;
     background-position: center;
-    background-size: contain;
+    background-size: contain;  */
     margin-top: 10px;
     cursor: pointer;
 }
+
 
 .opcoes:hover{
     background-color: #0074FD;
@@ -358,13 +358,12 @@ nav{
 
 /*CARDS*/
 .cards{
-    width: 100vw;
-    margin-left: 14%;
+    margin-left: 9%;
     margin-top: calc(27vh - 40px);
     padding: 30px;
     display: flex;
     flex-wrap: wrap;
-    align-items: center;
+    justify-content: flex-start;
 }
 
 .card{
@@ -387,7 +386,11 @@ nav{
 }
 
 .card:hover{
-    background-color: #d0d0d0;
+    background-color: #3e3e3ed4;
+}
+
+.cardDark{
+    background-color: #2a2a2a;
 }
 
 #addGarage, #addFunc{
@@ -407,38 +410,8 @@ nav{
     background-position: top;
 }
 
-.imgBanheira{
-    background-image: url(../images/banehira.svg);
 
-}
-
-.banheiraDark{
-    background-image: url(../images/Dark/banheiraDark.png) !important;
-    background-color: gold;
-}
-
-#imgLamp{
-    background-image: url(../images/lamp.svg);
-    width: 70% !important;
-    height: 70% !important;
-}
-
-#imgGaragem{
-    background-image: url(../images/portao.svg);
-}
-
-#imgCoffe{
-    background-image: url(../images/cupOfCoffe.svg);
-    width: 70% !important;
-    height: 70% !important;
-}
-
-#imgWoman{
-    background-image: url(../images/woman.svg);
-    width: 70% !important;
-    height: 70% !important;
-}
-
+/* CONTADOR */
 .contador{
     width: 359px;
     height: 360px;
@@ -446,7 +419,7 @@ nav{
     border-radius: 100%;
     position: fixed;
     right: -7px;
-    top: 370px;
+    top: 60vh;
     padding: 88px 60px 100px 60px;
     transition: 3s !important;
     transition-timing-function: cubic-bezier(0.55, -0.04, 0, 1.29) !important;
@@ -483,9 +456,18 @@ nav{
 }
 
 .contadorJs {
-    right: 848px;
+    right: 60vw;
     transition: 3s !important;
     transition-timing-function: cubic-bezier(0.55, -0.04, 0, 1.29) !important;
+}
+
+/* SVG */
+.svgCor{
+    fill: #000000;
+}
+
+.svgCorDark{
+    fill: white;
 }
 
 
@@ -520,3 +502,7 @@ nav{
     background-color: #ffffff;
   }
 
+
+
+
+ 

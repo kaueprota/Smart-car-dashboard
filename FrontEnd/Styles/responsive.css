@@ -26,10 +26,10 @@
     }
     /*....*/
     /*NAV*/
-    nav{
+    nav {
         height: calc(583px + 4vh) !important;
         width: 95px !important;
-        top: 3vh !important;
+        top: calc(50vh - 312px) !important;
         border-radius: 0px 100px 100px 0px !important;
     }
 
@@ -53,40 +53,23 @@
         background-color: #0074FD;
     }
     
+    .recolher {
+        left: 112% !important;
+    }
     
     .imgMenu{
         width: 50px  !important;
         height: 50px  !important;
     }
     
-    #imgInicial{
-        background-image: url(../images/ArrowMenu.svg);
-    }
-    
-    #imgCar{
-        background-image: url(../images/CarMenu.svg);
-        
-    }
-    
-    #imgGarage{
-        background-image: url(../images/houseMenu.svg);
-        
-    }
-    
-    #imgPerson{
-        background-image: url(../images/PersonMenu.svg);
-        
-    }
-    
-    #imgConfig{
-        background-image: url(../images/EngramMenu.svg);
 
-    }
     /*....*/
     /*CARDS*/
     .cards{
-        width: 88vw !important;
-        margin-left: 14% !important;
+        margin-left: 0 !important;
+        display: flex !important;
+        flex-wrap: wrap !important;
+        justify-content: center !important;
         margin-top: calc(27vh - 40px) !important;
         padding: 30px !important;
     }
@@ -114,17 +97,19 @@
     }
     /*....*/
     /*CONTADOR*/
-    .contador{
+   
+    .contador {
         width: 190px !important;
         height: 190px !important;
         position: fixed !important;
-        right: 23vw !important;
-        top: 70vh !important;
+        right: 1vw /* !important; */;
+        top: 78vh !important;
         display: flex !important;
         align-items: center !important;
         justify-content: center !important;
-        
     }
+        
+    
 
     .textContador h2{
         font-size: 70px !important;
